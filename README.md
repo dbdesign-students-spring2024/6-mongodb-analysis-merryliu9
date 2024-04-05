@@ -593,3 +593,8 @@ db.listings.aggregate([
 ```
 ### insights
 These insights provide a snapshot of guest satisfaction across different neighborhoods, highlighting areas that consistently offer high-quality experiences. This information can be valuable for travelers looking for accommodations in Massachusetts and for hosts aiming to benchmark their listings against neighborhood averages.
+
+
+# Extra-credit
+
+This assignment deserves extra credit because it used python to perform mongodb queries.
