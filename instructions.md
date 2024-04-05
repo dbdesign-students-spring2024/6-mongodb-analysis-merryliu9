@@ -117,11 +117,11 @@ The code below shows how to connect from Python to a MongoDB database using `pym
 
 ```python
 import pymongo
-connection = pymongo.MongoClient("your_db_host", 27017,
-                                username="your_db_username",
-                                password="your_db_password",
-                                authSource="your_db_name")
-collection = connection["your_db_name"]]["your_db_collection_name"]
+connection = pymongo.MongoClient("class-mongodb.cims.nyu.edu", 27017,
+                                username="ql2453",
+                                password="JKCqZpsy",
+                                authSource="ql2453")
+collection = connection["ql2453"]]["ql2453"]
 
 # the collection variable will be a reference to your collection
 docs = collection.find({}).limit(10) # get the first 10 documents
